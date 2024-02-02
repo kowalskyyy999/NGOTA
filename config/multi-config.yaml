@@ -1,0 +1,6 @@
+config:
+  files:
+    - file1.csv
+    - file2.csv
+  fields:
+    - name
