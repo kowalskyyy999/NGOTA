@@ -3,18 +3,6 @@
 version = 3
 
 [[package]]
-name = "MaskingCSV"
-version = "0.1.0"
-dependencies = [
- "clap",
- "csv",
- "rand",
- "rand_xorshift",
- "serde",
- "serde_yaml",
-]
-
-[[package]]
 name = "anstream"
 version = "0.6.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -191,6 +179,18 @@ name = "memchr"
 version = "2.6.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f665ee40bc4a3c5590afb1e9677db74a508659dfd71e126420da8274909a0167"
+
+[[package]]
+name = "ngota"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "csv",
+ "rand",
+ "rand_xorshift",
+ "serde",
+ "serde_yaml",
+]
 
 [[package]]
 name = "ppv-lite86"
